@@ -1,8 +1,6 @@
-const body = document.body
-const div  = document.createElement("div")
-const strong = document.createElement("strong")
-strong.innertext = "Hello World 2"
-div.append(strong)
+const body  = document.body
+const div = document.querySelector('div')
+const span1  = document.querrySelector("#hi")
+const spanBye = document.querySelector("#bye")
 
-
-body.append(div)
+(span1Hi.getAttribute("id"))
