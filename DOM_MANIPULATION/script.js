@@ -1,6 +1,8 @@
 const body = document.body
 const div  = document.createElement("div")
- div.innerText = "Hello World"
-div.textContent = "Hello World 2 "
+const strong = document.createElement("strong")
+strong.innertext = "Hello World 2"
+div.append(strong)
+
 
 body.append(div)
